@@ -8,8 +8,12 @@ const heroImages = [
 let heroIndex = 0;
 
 function changeHeroBackground() {
-  hero.style.backgroundImage = `url('${heroImages[heroIndex]}')`;
-  heroIndex = (heroIndex + 1) % heroImages.length;
+  const img = new Image();
+  img.src = heroImages[heroIndex];
+  img.onload = () => {
+    hero.style.backgroundImage = `url('${img.src}')`;
+    heroIndex = (heroIndex + 1) % heroImages.length;
+  };
 }
 
 changeHeroBackground(); 
