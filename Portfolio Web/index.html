@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="portfolio, front-end developer, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+  <meta name="description" content="Welcome to Rayhan's Portfolio. Informatics Engineering Student" />
+  <!-- Favicon -->
+  <title>Portfolio</title>
+  <link id='favicon' rel="shortcut icon" href="img\logo-revou.png" type="image/x-png">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- Lottie Animation -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+
+  <!-- Header dan Navbar Starts -->
+  <header id="main-header" data-aos="fade-down" data-aos-duration="1000">
+  <div class="logo">
+     <lottie-player
+    src="https://assets10.lottiefiles.com/packages/lf20_j1adxtyb.json"
+    background="transparent"
+    speed="1"
+    style="width: 100px; height: auto;"
+    loop
+    autoplay>
+    </lottie-player>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#contact" class="nav-link">Contact Us</a>
+  </nav>
+
+  <!-- Hamburger Icon -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+<!-- Header dan Navbar Ends -->
+
+
+  <!-- Hero Section Starts -->
+  <div class="hero" id="hero">
+    <div id="particles-js"></div>
+    <div class="hero-content">
+      <h1 class="typewriter" id="heroTitle">
+        HI <span contenteditable="true" id="username" class="editable" data-placeholder="Type Your Name"></span>
+      </h1>
+      <p id="heroDesc" class="description"></p>
+    </div>
+  </div>
+  <!-- Hero Section Ends -->
+
+  <!-- About Section Starts -->
+  <section class="about" id="about">
+    <h2 class="section-title">
+      <i class="fas fa-user"></i> About <span>Me</span>
+    </h2>
+    <div class="about-container">
+      <div class="about-image">
+        <lottie-player 
+        src="https://assets4.lottiefiles.com/packages/lf20_w51pcehl.json" 
+        background="transparent" 
+        speed="1" 
+        class="lottie-animation"
+        loop 
+        autoplay>
+        </lottie-player>
+      </div>
+      <div class="about-content">
+        <h3>I'm Rayhan</h3>
+        <h4>Informatics Engineering Student</h4>
+        <p>I am an Informatics Engineering student at Krisnadwipayana University with a strong passion for improving my coding and web development skills. Currently, I am focusing on front-end development and continuously learning to create responsive, interactive, and visually appealing user interfaces.</p>
+        <p><strong>Email :</strong> <a href="mailto:rayhanalim04@gmail.com">rayhanalim04@gmail.com</a></p>
+        <p><strong>Place :</strong> Bekasi, Indonesia</p>
+        <a href="https://drive.google.com/file/d/16nt0qiv0kUtPasrDkMW5mynPoVS_keIG/view?usp=sharing" target="_blank" class="resume-btn">Resume ›</a>
+      </div>
+    </div>
+  </section>
+  <!-- About Section Ends -->
+
+  <!-- Skills Section Starts -->
+  <section class="skills" id="skills">
+    <h2 class="section-title"><i class="fas fa-tools"></i> My <span>Skills</span></h2>
+    <div class="skills-grid">
+      <div class="skill-card1">
+        <h3><i class="fas fa-brain pulse"></i> Soft Skills</h3>
+        <ul>
+          <li><i class="fas fa-lightbulb"></i> Analysis Ability</li>
+          <li><i class="fas fa-user-check"></i> Critical Thinking</li>
+          <li><i class="fas fa-tools"></i> Problem Solving</li>
+          <li><i class="fas fa-comments"></i> Communication</li>
+          <li><i class="fas fa-users"></i> Teamwork</li>
+        </ul>
+      </div>
+
+      <div class="skill-card2">
+        <h3><i class="fas fa-laptop-code pulse"></i> Software</h3>
+        <ul>
+          <li><i class="fas fa-laptop"></i> Visual Studio Code</li>
+          <li><i class="fab fa-figma"></i> Figma</li>
+          <li><i class="fas fa-file-alt"></i> Microsoft Office</li>
+          <li><i class="fas fa-database"></i> phpMyAdmin</li>
+          <li><i class="fas fa-server"></i> XAMPP</li>
+        </ul>
+      </div>
+
+      <div class="skill-card3">
+        <h3><i class="fas fa-code pulse"></i> Hard Skills</h3>
+        <ul>
+          <li><i class="fab fa-html5"></i> HTML</li>
+          <li><i class="fab fa-css3-alt"></i> CSS</li>
+          <li><i class="fab fa-js-square"></i> JavaScript</li>
+          <li><i class="fas fa-pencil-ruler"></i> UI/UX Design</li>
+        </ul>
+      </div>
+
+      <div class="skill-card4">
+        <h3><i class="fas fa-language pulse"></i> Languages</h3>
+        <ul>
+          <li><i class="fas fa-flag"></i> Indonesian (Native)</li>
+          <li><i class="fas fa-flag-usa"></i> English (Basic)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section Ends -->
+
+
+<!-- Contact Section Starts-->
+<section class="contact" id="contact">
+  <h2 class="section-title">
+    <i class="fas fa-headset"></i> Get In <span>Touch</span>
+  </h2>
+  
+  <div class="contact-container">
+    <div class="contact-image">
+      <lottie-player
+        src="img\animation.json"
+        background="none"
+        speed="1"
+        style="width: 100%; max-width: 400px; height: auto;"
+        loop
+        autoplay>
+      </lottie-player>
+    </div>
+
+    <form id="contactForm">
+      <div class="form-group1">
+        <i class="fas fa-user"></i>
+        <input type="text" id="name" placeholder="Name" required />
+      </div>
+      <div class="form-group2">
+        <i class="fas fa-envelope"></i>
+        <input type="email" id="email" placeholder="Email" required />
+      </div>
+      <div class="form-group3">
+        <i class="fas fa-phone"></i>
+        <input
+        type="text"
+        id="phone"
+        placeholder="Phone Number"
+        name="phone"
+        inputmode="numeric"
+        pattern="[0-9]{10,15}"
+        title="Masukkan hanya angka (10-15 digit)"
+        oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+        required/>
+      </div>
+      <div class="form-group4">
+        <i class="fas fa-comment-dots"></i>
+        <input id="message" placeholder="Message" required></input>
+      </div>
+      <button type="submit" class="submit-btn">
+        Submit <i class="fas fa-paper-plane"></i>
+      </button>
+    </form>
+  </div>
+</section>
+<!-- Contact Section Ends-->
+
+
+
+<!-- Popup Starts-->
+<div id="popupOverlay" class="popup-overlay">
+  <div class="popup">
+    <h3>Message Submitted!</h3>
+    <p><strong>Name:</strong> <span id="popupName"></span></p>
+    <p><strong>Email:</strong> <span id="popupEmail"></span></p>
+    <p><strong>Phone:</strong> <span id="popupPhone"></span></p>
+    <p><strong>Message:</strong> <span id="popupMsg"></span></p>
+    <p><strong>Submitted At:</strong> <span id="popupTime"></span></p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+</div>
+<!-- Popup Ends-->
+
+  
+
+  <!-- Footer Section Starts -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-box">
+        <h2>Rayhan Portfolio</h2>
+        <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+        <p>Keep Rising 🚀.</p>
+      </div>
+      <div class="footer-box">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><i class="fas fa-chevron-circle-right"></i><a href="#hero">Home</a></li>
+          <li><i class="fas fa-chevron-circle-right"></i><a href="#about">About</a></li>
+          <li><i class="fas fa-chevron-circle-right"></i><a href="#skills">Skills</a></li>
+          <li><i class="fas fa-chevron-circle-right"></i><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h2>Contact Info</h2>
+        <p><i class="fas fa-phone"></i> +62 XXX-XXXX-XXXX</p>
+        <p><i class="fas fa-envelope"></i> rayhanalim04@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Bekasi, Indonesia</p>
+        <div class="socials">
+          <a href="www.linkedin.com/in/rayhanalimfahrezy" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/rayhanazy" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:rayhanalim04@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://twitter.com/ryhnxcz" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://t.me/rayhann244" target="_blank" aria-label="Telegram">
+            <i class="fas fa-paper-plane"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <div class="footer-bottom">
+      <p>Designed With <span class="heart">❤️</span> By <span class="author">Rayhan</span></p>
+    </div>
+  </footer>
+  <!-- Footer Section Ends -->
+
+
+  <!-- Custom JS -->
+  <script src="js\script.js"></script>
+
+
+  <!-- Particles JS -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script>
+    particlesJS('particles-js', {
+      particles: {
+        number: { value: 100 },
+        color: { value: "#ffffff" },
+        shape: { type: "circle" },
+        opacity: { value: 0.7 },
+        size: { value: 3 },
+        line_linked: {
+          enable: true,
+          distance: 200,
+          color: "#ffffff",
+          opacity: 0.7,
+          width: 1
+        },
+        move: { enable: true, speed: 2 }
+      },
+      interactivity: {
+        events: {
+          onhover: { enable: true, mode: "repulse" }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+  ScrollReveal().reveal('.hero-content', {
+    origin: 'bottom',
+    distance: '80px',
+    duration: 1000,
+    delay: 200,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.section-title', {
+    origin: 'bottom',
+    distance: '80px',
+    duration: 1000,
+    delay: 200,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.section-title i', {
+    origin: 'left',
+    distance: '80px',
+    duration: 2000,
+    delay: 200,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.about-image', {
+    origin: 'left',
+    distance: '80px',
+    duration: 1000,
+    delay: 500,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.about-content', {
+    origin: 'rigth',
+    distance: '80px',
+    duration: 1000,
+    delay: 200,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+  ScrollReveal().reveal('.about-content h3', {
+    origin: 'rigth',
+    distance: '80px',
+    duration: 1000,
+    delay: 400,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+  ScrollReveal().reveal('.about-content h4', {
+    origin: 'rigth',
+    distance: '80px',
+    duration: 1000,
+    delay: 600,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+  ScrollReveal().reveal('.about-content p', {
+    origin: 'rigth',
+    distance: '80px',
+    duration: 1000,
+    delay: 800,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+  ScrollReveal().reveal('.about-content p a', {
+    origin: 'rigth',
+    distance: '80px',
+    duration: 1000,
+    delay: 1000,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.resume-btn', {
+    origin: 'bottom',
+    distance: '80px',
+    duration: 1000,
+    delay: 1200,
+    easing: 'ease-in-out',
+    reset: true 
+  }); 
+
+  ScrollReveal().reveal('.skill-card1', {
+    origin: 'bottom',
+    distance: '80px',
+    duration: 1000,
+    delay: 200,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.skill-card2', {
+    origin: 'bottom',
+    distance: '80px',
+    duration: 1000,
+    delay: 400,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.skill-card3', {
+    origin: 'bottom',
+    distance: '80px',
+    duration: 1000,
+    delay: 600,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.skill-card4', {
+    origin: 'bottom',
+    distance: '80px',
+    duration: 1000,
+    delay: 800,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.contact-image', {
+    origin: 'left',
+    distance: '80px',
+    duration: 1000,
+    delay: 400,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.contact-container', {
+    origin: 'bottom',
+    distance: '80px',
+    duration: 1000,
+    delay: 200,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.form-group1', {
+    origin: 'rigth',
+    distance: '80px',
+    duration: 1000,
+    delay: 200,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.form-group2', {
+    origin: 'rigth',
+    distance: '80px',
+    duration: 1000,
+    delay: 400,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.form-group3', {
+    origin: 'rigth',
+    distance: '80px',
+    duration: 1000,
+    delay: 600,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+  
+  ScrollReveal().reveal('.form-group4', {
+    origin: 'rigth',
+    distance: '80px',
+    duration: 1000,
+    delay: 800,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.submit-btn', {
+    origin: 'bottom',
+    distance: '80px',
+    duration: 1000,
+    delay: 1000,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+
+  ScrollReveal().reveal('.popup', {
+    origin: 'bottom',
+    distance: '80px',
+    duration: 1000,
+    delay: 500,
+    easing: 'ease-in-out',
+    reset: true 
+  });
+</script>
+
+
+<!-- Popup Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('contactForm');
+  const overlay = document.getElementById('popupOverlay');
+  const popup = overlay.querySelector('.popup');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    // Ambil data input
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+
+    // Tampilkan ke popup
+    document.getElementById('popupName').innerText = name;
+    document.getElementById('popupEmail').innerText = email;
+    document.getElementById('popupPhone').innerText = phone;
+    document.getElementById('popupMsg').innerText = message;
+
+    const now = new Date();
+    const timeString = now.toLocaleString();
+    document.getElementById('popupTime').innerText = timeString;
+
+    // Tampilkan popup
+    overlay.style.display = 'flex';
+    document.body.classList.add('noscroll');
+
+    // Reset form
+    form.reset();
+
+    // Tutup popup otomatis setelah 5 detik
+    setTimeout(() => {
+      closePopup();
+    }, 5000);
+  });
+
+  window.closePopup = function () {
+    overlay.style.display = 'none';
+    document.body.classList.remove('noscroll');
+  }
+});
+</script>
+
+
+<!-- AOS Script -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+
+</html>
