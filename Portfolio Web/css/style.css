@@ -171,17 +171,23 @@ header {
     top: 100%;
     right: 0;
     flex-direction: column;
-    background: white;
-    width: 200px;
-    padding: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(90deg, rgb(107, 128, 157), rgb(221, 231, 245));
+    padding: 10px 200px 600px 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transform: translateX(100%);
     transition: transform 0.3s ease;
-    border-radius: 10px;
+    gap: 40px;
+  }
+
+  .navbar a {
+    font-size: 2.1rem;
+    margin: 20px 0 0 20px;
+    font-weight: bold;
   }
 
   .navbar.active {
     transform: translateX(0);
+    align-items: flex-start;
   }
 
   .hamburger {
@@ -209,11 +215,22 @@ header {
   }
 
   .navbar {
-    right: -20px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgb(107, 128, 157), rgb(221, 231, 245));
+    padding: 10px 200px 600px 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    gap: 40px;
   }
 
   .navbar a {
-    font-size: 15px;
+    font-size: 2.1rem;
+    margin: 20px 0 0 20px;
+    font-weight: bold;
   }
 }
 
@@ -226,12 +243,11 @@ header {
   }
 
   .navbar {
-    top: 55px;
     right: -10px;
   }
 
   .navbar a {
-    font-size: 14px;
+    font-size: 1.8rem;
   }
 
   .hamburger span {
